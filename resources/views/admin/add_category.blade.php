@@ -2,7 +2,7 @@
 @section('title', 'Add Category');
 @section('body')
 
-    <section class="section main">
+    <section class="section">
         <div class="status">
             <h4>{{ session('status') }}</h4>
         </div>
