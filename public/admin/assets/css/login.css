@@ -1,0 +1,143 @@
+       /* ============================================== 06 June 2025 ============================================== */
+       
+       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+       /* define css */
+       
+       p {
+           font-size: 17px;
+           color: #2a2a2a;
+           font-family: "DM Sans", sans-serif;
+           margin: 0;
+       }
+       
+       button,
+       input {
+           outline: none !important;
+       }
+       
+       button:focus,
+       input:focus {
+           outline: none !important;
+       }
+       
+       .common-primary-button {
+           background-color: #eb9c17;
+           font-family: "DM Sans", sans-serif;
+           padding: 14px 30px;
+           font-size: 16px;
+           font-weight: 700;
+           color: #fff;
+           border: 1px solid #eb9c17;
+           border-radius: 5px;
+           min-width: 170px;
+           text-align: center;
+       }
+       
+       .common-primary-button:hover {
+           background-color: #fff;
+           transition: 0.3s ease-in-out;
+           color: #eb9c17;
+       }
+       /* Margin Define Start */
+       
+       .ctm-mt-5 {
+           margin-top: 5px;
+       }
+       
+       .ctm-mt-10 {
+           margin-top: 10px;
+       }
+       
+       .ctm-mt-20 {
+           margin-top: 20px;
+       }
+       
+       .ctm-mt-30 {
+           margin-top: 30px;
+       }
+       
+       .ctm-mt-40 {
+           margin-top: 40px;
+       }
+       
+       .ctm-mt-50 {
+           margin-top: 50px;
+       }
+       
+       .section-scace-top {
+           margin-top: 50px !important;
+       }
+       /* Margin Define End */
+       /* define css */
+       
+       .admin-login-main {
+           max-width: 800px;
+           margin: 0 auto;
+           box-shadow: 0 0 14px #e7e7e7;
+           padding: 30px;
+           border-radius: 10px;
+       }
+       
+       .admin-login-inner {
+           text-align: center;
+       }
+       
+       .admin-login-inner img {
+           max-width: 100px;
+           margin: 0 auto;
+           text-align: center;
+       }
+       
+       .admin-login-inner .heading h1 {
+           font-size: 30px;
+           line-height: 40px;
+           text-align: center;
+           font-family: "DM Serif Display", serif;
+           font-weight: 500;
+       }
+       
+       .admin-login-inner .form-input label {
+           width: 100%;
+           display: block;
+           margin: 14px 0 5px 0;
+           color: #212529;
+           font-size: 18px;
+           text-align: start;
+           font-family: "DM Sans", sans-serif;
+       }
+       
+       .admin-login-inner .form-input input {
+           width: 100%;
+           height: 40px;
+           border-radius: 5px;
+           border: 1px solid #ccc;
+           padding: 0 0 0 5px;
+           line-height: 40px;
+           margin-bottom: 10px;
+           font-family: "DM Sans", sans-serif;
+           width: 100%;
+           display: block;
+           color: #212529;
+           font-size: 16px;
+       }
+       
+       .admin-login-inner .form-input input::placeholder {
+           color: #212529;
+           font-size: 16px;
+       }
+       
+       .admin-login-inner .forgot-password a {
+           font-size: 16px;
+           font-family: "DM Sans", sans-serif;
+           margin-top: 20px;
+           color: #2a2a2a;
+       }
+       
+       @media(max-width:991px) {
+           .admin-login-main {
+               max-width: 100%;
+               padding: 20px;
+               margin: 20px;
+           }
+       }
+       /* ============================================== 06 June 2025 ============================================== */
