@@ -270,24 +270,23 @@ $(document).ready(function () {
 
 
 ///////////////// Image Preview code Js End //////////////////////////////////
+$(document).ready(function () {
+    var currentPath = window.location.pathname;
 
- $(document).ready(function () {
-        var currentUrl = window.location.href;
+    // Loop through all sidebar links
+    $('#sidebar-nav a').each(function () {
+        var linkPath = new URL(this.href).pathname;
 
-        // Loop through all sidebar links
-        $('#sidebar-nav a').each(function () {
-            var linkUrl = this.href;
+        // Check for exact path match
+        if (currentPath === linkPath) {
+            $(this).addClass('active');
 
-            // Check if current URL starts with the link's URL
-            if (currentUrl === linkUrl || currentUrl.startsWith(linkUrl)) {
-                $(this).addClass('active');
-
-                // Expand the parent .collapse menu if it's nested
-                var parentCollapse = $(this).closest('.collapse');
-                if (parentCollapse.length) {
-                    parentCollapse.addClass('show');
-                    parentCollapse.prev('a').removeClass('collapsed');
-                }
+            // Expand the parent .collapse menu if it's nested
+            var parentCollapse = $(this).closest('.collapse');
+            if (parentCollapse.length) {
+                parentCollapse.addClass('show');
+                parentCollapse.prev('a').removeClass('collapsed');
             }
-        });
+        }
     });
+});

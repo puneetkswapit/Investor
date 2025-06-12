@@ -142,7 +142,7 @@
                  </li>
 
                  <li>
-                     <a href="#!">
+                     <a href="/#!">
                          <i class="bi bi-circle"></i><span>View SERO Report</span>
                      </a>
                  </li>
